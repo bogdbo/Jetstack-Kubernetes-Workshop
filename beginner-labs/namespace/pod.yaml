@@ -1,0 +1,10 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: hello-world-pod
+  namespace: demo
+spec:
+  containers:
+  - name: hello-world-container
+    image: jetstack/hello-world:0.1
